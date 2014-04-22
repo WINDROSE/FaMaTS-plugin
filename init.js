@@ -33,11 +33,14 @@
          */
          
          valid: function() {
-            codiad.modal.load(400, this.dialog +'?question=valid');		
+			var file= encodeURI($('#context-menu').attr('data-path'));
+            codiad.modal.load(400, this.dialog +'?question=valid&' +'datapath='+file);	
+			console.log(this.dialog +'?question=valid&' +'datapath='+file)	;
          },
 
          products: function() {
-             codiad.modal.load(400, this.dialog +'?question=products');		
+ 			 var file= encodeURI($('#context-menu').attr('data-path'));
+             codiad.modal.load(400, this.dialog +'?question=products&' +'datapath='+file);
          },
 		 
          numberofproducts: function() {

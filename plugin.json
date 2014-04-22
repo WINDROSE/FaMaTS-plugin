@@ -10,42 +10,12 @@
             "icon": "icon-info-circled",
             "applies-to": "extension-only fama",
             "title": "All products"
-        },
-        {
-            "action": "codiad.famats.numberofproducts();",
-            "icon": "icon-info-circled",
-            "applies-to": "extension-only fama",
-            "title": "Number of products"
-        },
-        {
+		},
+		{
             "action": "codiad.famats.valid();",
             "icon": "icon-info-circled",            
 			"applies-to": "extension-only fama",
             "title": "Valid Model"
-        },
-        {
-            "action": "codiad.famats.validconfiguration();",
-            "icon": "icon-info-circled",
-            "applies-to": "extension-only fama",		
-            "title": "Valid Configuration"
-        },
-        {
-            "action": "codiad.famats.validproduct();",
-            "icon": "icon-info-circled",
-            "applies-to": "extension-only fama",
-            "title": "Valid Product"
-        },
-        {
-            "action": "codiad.famats.deadfeatures();",
-            "icon": "icon-info-circled",
-            "applies-to": "extension-only fama",
-            "title": "Dead Features"
-        },
-        {
-            "action": "codiad.famats.corefeatures();",
-            "icon": "icon-info-circled",
-            "applies-to": "extension-only fama",
-            "title": "Core Features"
         }
     ]
 }]
